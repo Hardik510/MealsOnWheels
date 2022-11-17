@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            body {
+                background-color: #373E4A;
+                width: 345px;
+                height: 200px;
+                padding: 10px;
+                align-items: center;
+                border: 1px solid white;
+                color: white;
+            }
+            img {
+                height: 40px;
+                width: 100px;
+                display: block;
+                margin: 5px auto 25px auto;
+            }
+            th, td {
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="rupay.png">
+        <div>
+            <form>
+            <table>
+                <tr>
+                    <th>Phone no:</th>
+                    <td><input type="number" id="unique_id" maxlength="10" minlength="10" required class="validate"></td>
+                </tr>
+                <tr>
+                    <th>RuPay username:</th>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><button type="submit" formaction="transac.html">Proceed to pay ₹675</button></td>
+                </tr>
+            </table>
+            </form>
+        </div>
+    </body>
+</html>
